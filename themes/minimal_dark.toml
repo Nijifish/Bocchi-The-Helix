@@ -1,0 +1,122 @@
+# Minimal Dark theme 
+# Author: Nijifish (https://github.com/Nijifish)
+ 
+# UI colors taken from:
+# URL: https://github.com/sainnhe/everforest
+# Filename: colors/everforest.vim
+# Author: sainnhe
+# Email: sainnhe@gmail.com
+# License: MIT License
+ 
+# rainbow = [ "bocchi_pink", "nijika_yellow", "kita_red", { fg = "ryo_blue", modifiers = ["bold"] }]
+"type" = "white"
+"constant" = "white"
+"constant.builtin" = { fg = "white", modifiers = ["italic"] }
+"constant.builtin.boolean" = "white"
+"constant.numeric" = "white"
+"string" = "white"
+"string.special" = "white"
+"comment" = { fg = "gray", modifiers = ["italic"] }
+"variable" = "white"
+"variable.builtin" = { fg = "white", modifiers = ["italic"] }
+"variable.parameter" = "white"
+"variable.other.member" = "text_white"
+"punctuation" = "gray"
+"punctuation.delimiter" = "gray"
+"punctuation.bracket" = "text_white"
+"punctuation.special" = "text_white"
+"keyword" = "text_white"
+"keyword.operator" = "text_white"
+"keyword.directive" = "text_white"
+"keyword.storage" = "text_white"
+"operator" = "text_white"
+"function" = "text_white"
+"function.macro" = "text_white"
+"tag" = "text_white"
+"namespace" = { fg = "white", modifiers = ["italic"] }
+"attribute" = { fg = "text_white", modifiers = ["italic"] }
+"constructor" = "text_white"
+"module" = "white"
+"special" = "text_white"
+
+"markup.heading.1" = { fg = "text_white", modifiers = ["bold"] }
+"markup.heading.2" = { fg = "text_white", modifiers = ["bold"] }
+"markup.heading.3" = { fg = "white", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "text_white", underline = { style = "line" } }
+"markup.link.text" = "white"
+
+"diff.plus" = "text_white"
+"diff.delta" = "ryo_blue"
+"diff.minus" = "kita_red"
+
+"ui.background" = { bg = "bg_dim" }
+"ui.cursor" = { fg = "bg1", bg = "grey2" }
+"ui.cursor.insert" = { fg = "bg0", bg = "grey1" }
+"ui.cursor.select" = { fg = "bg0", bg = "ryo_blue" }
+"ui.cursor.match" = { fg = "white", bg = "nijika_yellow" }
+"ui.cursor.primary" = { fg = "bg0", bg = "white" }
+"ui.cursorline.primary" = { bg = "bg1" }
+"ui.cursorline.secondary" = { bg = "bg1" }
+"ui.cursorcolumn.primary" = { bg = "bg1" }
+"ui.cursorcolumn.secondary" = { bg = "bg1" }
+"ui.selection" = { bg = "bg5" }
+"ui.linenr" = "linenr_gray"
+"ui.linenr.selected" = "text_white"
+"ui.statusline" = { fg = "grey2", bg = "bg0" }
+"ui.statusline.inactive" = { fg = "grey0", bg = "bg1" }
+"ui.statusline.normal" = { fg = "bg0", bg = "text_white", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "bg0", bg = "nijika_yellow", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "bg0", bg = "ryo_blue", modifiers = ["bold"] }
+"ui.bufferline" = { fg = "grey2", bg = "bg3" }
+"ui.bufferline.active" = { fg = "bg0", bg = "text_white", modifiers = ["bold"] }
+"ui.popup" = { fg = "grey2", bg = "bg0" }
+"ui.window" = { fg = "bg4", bg = "bg0" }
+"ui.help" = { fg = "white", bg = "bg0" }
+"ui.text" = "white"
+"ui.text.directory" = { fg = "text_white" }
+"ui.text.focus" = "white"
+"ui.menu" = { fg = "white", bg = "bg0" }
+"ui.menu.selected" = { fg = "bg0", bg = "text_white" }
+"ui.virtual.ruler" = { bg = "bg0" }
+"ui.virtual.whitespace" = { fg = "bg4" }
+"ui.virtual.indent-guide" = { fg = "bg5" }
+"ui.virtual.inlay-hint" = { fg = "grey0" }
+"ui.virtual.wrap" = { fg = "grey0" }
+
+"hint" = "ryo_blue"
+"info" = "bocchi_pink"
+"warning" = "nijika_yellow"
+"error" = "kita_red"
+
+"diagnostic.hint" = { underline = { color = "ryo_blue", style = "dotted" } }
+"diagnostic.info" = { underline = { color = "bocchi_pink", style = "dotted" } }
+"diagnostic.warning" = { underline = { color = "nijika_yellow", style = "dotted" } }
+"diagnostic.error" = { underline = { color = "kita_red", style = "dotted" } }
+
+[palette]
+bg_dim = "#1e2326"
+bg0 = "#272e33"
+bg1 = "#2e383c"
+bg3 = "#414b50"
+bg4 = "#495156"
+bg5 = "#4f5b58"
+
+grey0 = "#7a8478"
+grey1 = "#859289"
+grey2 = "#9da9a0"
+
+linenr_gray = "#5a6468"
+linenr_gray_selected = "#6a7478"
+
+white = "#aaaaaa"
+gray = "#8ca7a0"
+
+text_white = "#dddddd"
+bocchi_pink = "#ffa6c9"        
+ryo_blue = "#4a8bc2"    
+nijika_yellow = "#ffd166" 
+kita_red = "#e76f51"    
+
+
