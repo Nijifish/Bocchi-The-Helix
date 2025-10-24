@@ -1,5 +1,5 @@
 # Bocchi-The-Helix
-Theme for Helix Editor inspired by characters from bocchi the rock (mainly just bocchi).
+Theme for ![Helix Editor](https://github.com/helix-editor/helix) inspired by characters from bocchi the rock (mainly just bocchi).
 
 ## Preview
 ![Rust Preview](https://github.com/Nijifish/Bocchi-The-Helix/blob/main/preview/rust.png)
